@@ -1,0 +1,126 @@
+@import "/node_modules/slick-carousel/slick/slick.css";
+@import "/node_modules/slick-carousel/slick/slick-theme.css";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f4a261;
+  }
+  
+  .header .logo img {
+    height: 100px;
+}
+ 
+
+  input[type="text"] {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-btn {
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    width: 50px; /* Ajuste conforme necessário */ 
+    height: 50px; /* Ajuste conforme necessário */ 
+    padding: 0;
+    
+  }
+
+  .iconperfil{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #e76f51;
+  }
+  
+  .navbar button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #e76f51;
+  }
+  
+  .recipe-slider {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .recipe-card {
+    width: 500px; /* Define uma largura fixa para os cards */ 
+    margin: 0 ; /* Centraliza o card horizontalmente */ 
+    padding: 20px; border: 1px solid #ddd; 
+    border-radius: 4px; 
+    background: #4caf50; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    
+  }
+
+  .card{
+    width: 5000px; /* Define uma largura fixa para os cards */ 
+    margin: 0 auto; /* Centraliza o card horizontalmente */ 
+    padding: 20px; border: 1px solid #ddd; 
+    border-radius: 4px; 
+    background: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+  }
+  
+  .recipe-card img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do card */ 
+    height: auto; 
+    border-radius: 4px;
+  }
+  
+  .favorite-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  
+  .next-arrow, .prev-arrow {
+    background-color: #e76f51;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }

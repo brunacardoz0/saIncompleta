@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc99;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .logo img {
+    height: 150px;
+  }
+  
+  .header .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+    /* margin-right: 40%; */
+  }
+  
+  .header .search-bar input[type="text"] {
+    width: 300px;
+    padding: 12px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 36%;
+  }
+  
+  .header .user-icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden; /* Para garantir que a imagem siga a borda da div */
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header .user-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz com que a imagem preencha a área de forma proporcional */
+  }
+
+  .search-bar input{
+    margin: 0;
+    outline: 0;
+  }
+  
